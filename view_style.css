@@ -1,0 +1,78 @@
+.navbar-nav { 
+            margin-left: auto; 
+        } 
+
+    h2{text-align: center;
+  
+;}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color:#f1f1f1;
+}
+
+
+td{
+    font-size:25px;
+    font-weight:400;
+    
+}
+
+.alert {
+  padding: 20px;
+  background-color:#9cffcd;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+  .centre {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    background-color:#f8f9fa;
+  }
+.row{
+  background-color:#bee5eb;
+  
+}
+.button-container {
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  display:inline-block;
+  }
+
+@media screen and (max-width: 600px) {
+ table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: left;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: left;
+  }
+}
+
+
